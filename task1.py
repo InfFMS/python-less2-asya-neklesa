@@ -1,16 +1,13 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = int(input())
+if a == 1:
+    print('Время начала: 8:30 Время конца: 9:15')
+elif a == 2:
+    print('Время начала: 9:25 Время конца: 10:10')
+elif a == 3:
+    print('Время начала: 10:20 Время конца: 11:05')
+elif a == 4:
+    print('Время начала: 11:15 Время конца: 12:00')
+elif a == 5:
+    print('Время начала: 12:30 Время конца: 13:15')
+elif a == 6:
+    print('Время начала: 13:25 Время конца: 14:10')
